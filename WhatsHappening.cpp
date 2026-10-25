@@ -12,11 +12,15 @@ Here is a breakdown of how it works and what it represents:
 
 Each slot in this collection holds a Particle object. Looking at the struct declaration at the top of the program:
 cpp */
+
+
 struct Particle {
     float x, y;   // Current screen coordinates
     float vx, vy; // Velocity (how fast and in what direction it moves each frame)
     float life;   // Remaining lifespan (1.0 = fully alive, 0.0 = dead)
 };
+
+
 /*
 If MAX_PARTICLES is set to 5000, then state->particles is a contiguous block in your computer's memory tracking 5,000 unique sets of positions, speeds, and lifespans.
 
