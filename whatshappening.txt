@@ -55,12 +55,12 @@ Case A: A Moving, Healthy Particle (Particle [0])
 
 This particle is currently alive and flying upper-right.
 
-Property	Value Before Frame Update	The Math Applied	Value After Frame Update
-x (Horizontal Position)	402.10f	402.10 + 1.20	403.30f
-y (Vertical Position)	298.50f	298.50 + (-0.50)	298.00f
-vx (X Speed)	1.20f	(Unchanged)	1.20f
-vy (Y Speed)	-0.50f	(Unchanged)	 -0.50f
-life (Lifespan)	0.84f	0.84 - 0.01	0.83f
+Property	                       Value Before Frame Update	The Math Applied	Value After Frame Update
+x (Horizontal Position)	         402.10f	                   402.10 + 1.20	         403.30f
+y (Vertical Position)	           298.50f	                   298.50 + (-0.50)	      298.00f
+vx (X Speed)	                    1.20f	                    (Unchanged)	           1.20f
+vy (Y Speed)	                   -0.50f	                    (Unchanged)	          -0.50f
+life (Lifespan)	                 0.84f	                    0.84 - 0.01	           0.83f
 
 Result: The particle moved slightly to the right, slightly upward, and its lifespan ticked down. Because life (0.83) is still greater than 0.0, it continues flying next frame.
 
